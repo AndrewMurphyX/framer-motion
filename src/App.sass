@@ -1,0 +1,34 @@
+.app
+	&__header
+		height: 100vh
+		width: 100vw
+		display: flex
+		justify-content: center
+		align-items: center
+		flex-direction: column
+		&__title
+			font-size: 50px
+			letter-spacing: 2px
+			font-weight: 600
+			font-family: sans-serif
+			color: #555
+		&__subtitle
+			color: #999
+			font-weight: normal
+			font-family: sans-serif
+			margin-top: 2em
+			font-size: 20px
+		&__clickscroll
+			margin-top: 20px
+			border: none
+			background: none
+			cursor: pointer
+			&:focus
+				outline: none
+				border: none
+			svg
+				fill: #999
+				transition: .5s
+			&:hover
+				svg
+					fill: #555
